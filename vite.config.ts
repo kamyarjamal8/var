@@ -15,6 +15,9 @@ export default defineConfig({
     outDir: 'dist',
     sourcemap: false,
     emptyOutDir: true,
+    rollupOptions: {
+      input: 'index.html',
+    },
   },
   server: {
     port: 3000,
